@@ -1,0 +1,25 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Menu a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+.Menu a.active {
+  font-weight: 800;
+}
+
+.Menu a:hover {
+  transition: 0.15s ease-in;
+  background-color: #00779e;
+}
